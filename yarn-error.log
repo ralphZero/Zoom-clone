@@ -1,0 +1,37 @@
+Arguments: 
+  /snap/node/3292/bin/node /snap/node/3292/bin/yarn.js add express
+
+PATH: 
+  /usr/local/lib/nodejs/node-v12.16.2-linux-x64/bin:/home/ralph/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:~/src/flutter/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "zoom-clone",
+    "version": "1.0.0",
+    "description": "A Zoom Clone with selected features",
+    "main": "server.js",
+    "author": "Ralph Placide",
+    "license": "MIT",
+    "scripts": {
+      "start": "node server.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

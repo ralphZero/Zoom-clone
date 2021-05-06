@@ -1,0 +1,14 @@
+{
+  "name": "zoom-clone",
+  "version": "1.0.0",
+  "description": "A Zoom Clone with selected features",
+  "main": "server.js",
+  "author": "Ralph Placide",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
