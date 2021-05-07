@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #131416;
+}
+video {
+    width: 25%;
+    height: auto;
+}
+button:hover, .list-group-item:hover {
+    background-color: #fafafa0a;
+}
+.section__chat {
+    height: 100%;
+    width: 300px;
+    background-color: #1B1F20;
+    border-left: 1px solid #fafafa0a;
+}
+.bottom__bar {
+    background-color: #1B1F20;
+    min-height: 56px;
+    border-top: 1px solid #fafafa0a;
+}
